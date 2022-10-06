@@ -63,6 +63,32 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
+.about-section {
+  margin: 47px 213px 132px 67px;
+}
+.about-section h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 64px;
+}
+.about-section h3 {
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-section img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+.about-description {
+  padding: 50px;
+}
+.about-description p {
+  margin-bottom: 60px;
+}
 .project-block {
   margin: 47px 213px 132px 67px;
 }
@@ -91,5 +117,30 @@ p {
   .project-block {
     margin: 15px 2px;
     text-align: center;
+  }
+
+  .about-section {
+    margin: 5px;
+    text-align: center;
+  }
+  .about-section h1 {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  .about-section h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .about-section img {
+    max-width: 300px;
+  }
+  .about-description {
+    padding: 35px;
+  }
+  .about-description p {
+    margin-bottom: 30px;
+    line-height: 25px;
   }
 }
