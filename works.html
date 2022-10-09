@@ -21,18 +21,24 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style/style.css" />
-    <title>Document</title>
+    <title>Maria's projects</title>
   </head>
   <body>
     <nav
       class="container d-flex justify-content-md-between justify-content-around"
     >
-      <img src="/img/logo2.jpg" alt="logo" class="logo d-none d-md-block" />
+      <a href="/" title="Home"
+        ><img src="/img/logo2.jpg" alt="logo" class="logo d-none d-md-block"
+      /></a>
       <ul class="navigation">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About me</a></li>
-        <li><a href="/works.html" class="active">Projects</a></li>
-        <li><a href="/contact.html">Contact me</a></li>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about.html" title="About Maria">About me</a></li>
+        <li>
+          <a href="/works.html" class="active" title="Maria's Projects"
+            >Projects</a
+          >
+        </li>
+        <li><a href="/contact.html" title="Contact Maria">Contact me</a></li>
       </ul>
     </nav>
     <div class="container all-projects-container">
@@ -71,6 +77,39 @@
           <p>Buid with HTML, CSS and React</p>
         </div>
       </div>
+      <footer class="container">
+        <div class="row contact-box">
+          <div class="col-md-8 ps-md-5">
+            <h3>Work Inquiry</h3>
+            <p>Let's work together</p>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center ps-md-5"
+          >
+            <a href="mailto:maria@stb.ua" class="button">Let's talk here</a>
+          </div>
+        </div>
+        <div class="email-link">
+          <a href="mailto:maria@stb.ua">maria@stb.ua</a>
+        </div>
+        <div class="social-media text-center mt-md-4 mt-2">
+          <a href="https://www.instagram.com/maruskazavialova/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/Drimka" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/maria-zavialova" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by me an it is
+          <a href="https://github.com/Drimka/Portfolio-Project" target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
