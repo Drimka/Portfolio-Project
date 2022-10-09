@@ -98,7 +98,8 @@ p {
   margin-bottom: 60px;
 }
 .project-block,
-.all-projects-container {
+.all-projects-container,
+.contact-info {
   margin: 47px 213px 132px 67px;
 }
 .project-block img {
