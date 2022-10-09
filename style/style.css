@@ -176,7 +176,8 @@ a.active {
   }
 
   .about-section,
-  .all-projects-container {
+  .all-projects-container,
+  .contact-info {
     margin: 5px;
     text-align: center;
   }
