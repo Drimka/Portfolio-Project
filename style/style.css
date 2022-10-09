@@ -14,6 +14,13 @@ h2 {
   font-weight: 700;
   font-family: var(--heading-font);
 }
+h4 {
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
 h6 {
   text-align: center;
   font-size: 18px;
@@ -109,7 +116,7 @@ p {
 .all-projects-container .project-box {
   padding: 15px 5px;
 }
-.project-box h3 {
+h4 {
   font-family: var(--text-font);
   font-weight: 700;
   font-size: 24px;
@@ -127,6 +134,9 @@ p {
   }
   h2 {
     font-size: 30px;
+  }
+  h4 {
+    line-height: 1;
   }
   h6 {
     margin: 10px 0;
@@ -174,12 +184,5 @@ p {
   }
   .all-projects-container img {
     padding: 15px 10px;
-  }
-  .project-box h3 {
-    font-family: var(--text-font);
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1;
-    margin-top: 10px;
   }
 }
