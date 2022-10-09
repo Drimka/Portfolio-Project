@@ -75,6 +75,27 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
+.logo {
+  max-height: 40px;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--text-font);
+  font-weight: 500;
+}
+.navigation a:hover,
+a.active {
+  color: var(--accent-color);
+}
+.navigation li {
+  display: inline;
+  margin-left: 15px;
+}
+.navigation {
+  margin-bottom: 0;
+  padding: 10px;
+}
 .about-section {
   margin: 47px 213px 132px 67px;
 }
@@ -185,5 +206,8 @@ h4 {
   }
   .all-projects-container img {
     padding: 15px 10px;
+  }
+  .navigation a {
+    font-size: 12px;
   }
 }
