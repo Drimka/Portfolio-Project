@@ -250,6 +250,7 @@ a.active {
   }
   .all-projects-container .project-box {
     padding: 5px 5px;
+    margin: 5px 0;
   }
   .all-projects-container img {
     padding: 15px 10px;
